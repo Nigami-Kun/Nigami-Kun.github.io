@@ -1,0 +1,140 @@
+.background {
+	background-image	: url("kayu6.jpg");
+	background-size		: cover;
+	height				: 
+	background-position : center;
+	background-repeat	: no-repeat;
+	margin:0.0;
+}
+img{
+	margin-top			: -11px;
+	margin-left			: auto;
+	margin-right		: auto;
+	display				: block;
+}
+.span{
+	font-size			: 36px;
+}
+.kanan{
+	float				: right;
+	top			: 135px;
+	right		: 25px;
+	background-color 	: rgba(255,255,255,0.5);
+	width				: 45%;
+	height				: 459px;
+	border-style		: solid;
+	border-color		: black;
+	position: fixed;
+
+}
+.kanan pre{
+	font-size		: 24px;
+	font-family		: forte;
+}
+
+.kanan p{
+	color			: black;
+	padding-left	: 140px;
+	font-size		: 18px;
+}
+.kiri{
+	float				: left;
+	top			: 135px;
+	left			: 25px;
+	width				: 45.5%;
+	height				: 459px;
+	background-color 	: rgba(255,255,255,0.4);
+	border-style		: solid;
+	border-color		: black;
+	position: fixed;
+
+}
+.kiri input{
+	margin-left		: 60px;
+}
+.kiri pre{
+	font-size		: 24px;
+	font-family		: forte;
+	padding-bottom  : -20px;
+}
+
+.kiri p{
+	color			: black;
+	padding-left	: 120px;
+	font-size		: 18px;
+}
+
+div#header ul{
+	list-style-type	: none;
+	position		: fixed;
+	top				: 0;
+	width			: 100%;
+	height			: 12%;
+	margin			: 0;
+	padding			: 0;
+	overflow		: hidden;
+	background-color: #333;
+	border-style	: solid;
+	border-color	: black;
+	margin			: 0.0;
+	opacity			: 0.7;
+}
+
+div#header li{
+	float: left;
+	
+}
+
+div#header li a{
+	display			: block;
+	color			: white;
+	text-align		: center;
+	padding-top  	: 12px;
+	padding-left	: 70px;
+	padding-bottom	: 1px;
+	padding-right	: 70px;
+	text-decoration	: none;
+	font-size		: 20px;
+	font-family		: forte;
+	border-style	: solid;
+	border-color	: black;
+
+}
+
+div#header li a:hover:not(.active) {
+	background-color:#111;
+}
+
+.active	{
+	background-color : gray;
+}
+
+#product{
+	margin-top	: 90px;
+	margin-left	: 170px;
+	float		: reight;
+	display		: inline-block;
+}
+
+#product div{
+	margin		: 28px;
+	border		: 5px groove #837e7e;
+	width		: 200px;
+	background-color: rgba(255,255,255,0.6);
+	display		: inline-block;
+}
+
+#product div img{
+	width		: 200px;
+	height		: 150px;
+
+}
+
+#product div h3{
+	color		: black;
+	padding		: 10px;
+	text-align	: center;
+}
+#product div p{
+	text-align	: center;
+}
